@@ -12,7 +12,7 @@ public class Ejercicio1Arrays {
         for (int i = 0; i < longitudArray; i++) {
 
             array [i] = (int)(Math.random()*51);
-            System.out.println(array[i]);
+            System.out.println("Número" + ": " + array[i]);
         }
         // una vez generados los numeros, indicar cuantos pares e impares hay en la coleccion
         for (int i = 0; i < 15 ; i++) {
