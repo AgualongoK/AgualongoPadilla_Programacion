@@ -42,5 +42,6 @@ public class SumaAristas {
         System.out.println("Suma de la última fila: " +sumatorioFilaN);
         System.out.println("Suma de la primera columna: " +sumatorioColumna1);
         System.out.println("Suma de la última columna: " +sumatorioColumnaN);
+        System.out.println();
     }
 }
