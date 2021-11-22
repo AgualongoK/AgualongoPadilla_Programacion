@@ -1,3 +1,5 @@
+package ArraysMultidimensionales;
+
 import java.util.Scanner;
 
 public class SumaAristas {
@@ -38,10 +40,36 @@ public class SumaAristas {
                 }
             }
         }
+
+        int numeroFila = 0;
+        for(int[] item : numerosAleatorios){
+
+            //primera fila
+            if(numeroFila==0){
+
+                for(int columna : item){
+                    if(numeroFila==0){
+                    sumatorioFila1 += columna;
+                }
+
+                    if (numeroFila ==filas-1){
+                        sumatorioFila1 += columna;
+                    }
+                //última fila
+
+                //primera columna
+
+                //última columna
+
+                numeroFila++;
+
+                }
+            }
+        }
+
         System.out.println("Suma de la primera fila: " +sumatorioFila1);
         System.out.println("Suma de la última fila: " +sumatorioFilaN);
         System.out.println("Suma de la primera columna: " +sumatorioColumna1);
         System.out.println("Suma de la última columna: " +sumatorioColumnaN);
-        System.out.println();
     }
 }
