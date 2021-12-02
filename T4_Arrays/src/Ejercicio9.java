@@ -5,10 +5,21 @@ public class Ejercicio9 {
 
         Scanner teclado = new Scanner(System.in);
         char[] abecedario = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+        int palabrasGenerar;
+        System.out.println("Cuantras palabras quieres generar: ");
+        palabrasGenerar = teclado.nextInt();
 
-        System.out.println("Introduzca la longitud deseada para el array: ");
-        int longitud = teclado.nextInt();
+        for (int i = 0; i < palabrasGenerar; i++) {
+            System.out.println("Palabra "+i);
 
-        String[] arrayPalabras = new String[longitud];
+            System.out.println("Cuantas letras tiene la palabra:");
+            int letras = teclado.nextInt();
+            String palabra = "";
+            for (int j = 0; j < letras; j++) {
+                char letraAleatoria = abecedario[(int)(Math.random()*abecedario.length)];
+                palabra += letraAleatoria;
+            }
+            System.out.println(palabra);
+        }
     }
 }
