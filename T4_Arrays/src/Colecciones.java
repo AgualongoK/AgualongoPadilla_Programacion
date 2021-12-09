@@ -22,11 +22,18 @@ public class Colecciones {
         String palabra = String.valueOf(listaCosas.get(1));
         System.out.println("El valor es: " + palabra);
 
+        listaCosas.add(6);
         listaCosas.add(true);
+        listaCosas.add(6);
         listaCosas.add("Samantha");
+        listaCosas.add(6);
         listaCosas.add(0.8);
+        listaCosas.add(6);
+        listaCosas.add(6);
         listaCosas.add("true");
+        listaCosas.add(6);
         listaCosas.add(34567);
+        listaCosas.add(6);
 
         tamanio = listaCosas.size();
 
@@ -71,7 +78,7 @@ public class Colecciones {
         //en el caso de que la palabra no se encuentre en la lista
         //se agregará al final
 
-        System.out.println("");
+        /*System.out.println("");
         String palabraDeseada = null;
         System.out.println("Indique la palabra que desea buscar: ");
         palabraDeseada = valor.next();
@@ -96,5 +103,28 @@ public class Colecciones {
             System.out.println(indice + ".- "+item);
             indice++;
         }
+
+        //borrar un elemento de un ArrayList
+        //recomendable no trabajar con objects dentro del .remove, si no, con posiciones
+
+        /*System.out.println("El tamaño actual es de :"+ listaCosas.size());
+
+        //elemento borrado con objeto
+        //listaCosas.remove(new Integer(5)); --> dará error
+        System.out.println(listaCosas);*/
+
+
+        //eliminar todos los valores 6 del ArrayList
+        System.out.println("Tamaño actual: "+ listaCosas.size());
+        int posicionPalabra = listaCosas.indexOf(6);
+        System.out.println("");
+
+        for (int i = 0; i < listaCosas.size(); i++) {
+            if (listaCosas.get(i).equals(6)){
+                listaCosas.remove(i);
+            }
+        }
+
     }
 }
+
