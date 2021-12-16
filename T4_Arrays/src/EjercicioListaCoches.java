@@ -4,82 +4,113 @@ import java.util.Scanner;
 public class EjercicioListaCoches {
     public static void main(String[] args) {
 
-        // 1.-Añadir coches, pedir datos, añadir a la lista
-        // 2.-Lista coches
-        // 3.-Buscar coche, pide matrícula
-        // 4.-Mostrar costes
-        // 5.-Eliminar coche, pide matrícula
-        // 6.-Vaciar garaje
+        Scanner lecturaTeclado = new Scanner(System.in);
+        int opcion = 0;
+        ArrayList<Object[]> listaGaraje = new ArrayList();
 
-        Scanner valor = new Scanner(System.in);
-        ArrayList<Object[]> garaje = new ArrayList();
-        int opcion = valor.nextInt();
-        int matricula = 0, caballos = 0, busquedaCoche = 0, cocheEliminado = 0;
-        String marca = "", modelo = "";
-        Object[] coche = new Object[]{matricula, marca, modelo, caballos};
-        do{
-            System.out.println("Bienvenido, introduzca la acción que desea realizar: ");
-            System.out.println("0.-Salir");
-            System.out.println("1.-Añadir coche al garaje");
-            System.out.println("2.-Mostrar contenido del garaje");
-            System.out.println("3.-Buscar coche");
-            System.out.println("4.-Mostrar coste");
-            System.out.println("5.-Eliminar coche");
-            System.out.println(" 6.-Vaciar garaje");
-            opcion = valor.nextInt();
-            System.out.println("");
+        do {
 
-            switch (opcion){
-                case 0:
-                    System.out.println("¡Hasta luego!");
-                break;
+            System.out.println("Bienvenido al garaje");
+            System.out.println("1. Añadir coche");
+            System.out.println("2. Listar coches");
+            System.out.println("3. Buscar coche");
+            System.out.println("4. Calcular costes");
+            System.out.println("5. Borrar coche");
+            System.out.println("6. Vaciar garaje");
+            System.out.println("7. Salir");
 
+            opcion = lecturaTeclado.nextInt();
+
+            switch (opcion) {
                 case 1:
+                    if (listaGaraje.size() < 5) {
+                        System.out.println("Que marca tiene el coche");
+                        String marca = lecturaTeclado.next();
+                        System.out.println("Que modelo tiene el coche");
+                        String modelo = lecturaTeclado.next();
+                        System.out.println("Que matricula tiene el coche");
+                        String matricula = lecturaTeclado.next();
+                        System.out.println("Que coste tiene el coche");
+                        int coste = lecturaTeclado.nextInt();
+                        Object[] coche = new Object[]{marca, modelo, matricula, coste};
+                        System.out.println("Coche recepcionado");
+                        listaGaraje.add(coche);
+                    } else {
+                        System.out.println("No hay espacio disponible");
+                    }
 
-                    System.out.println("Indique la matrícula del coche que quiere añadir: ");
-                    matricula = valor.nextInt();
-
-                    System.out.println("Indique la marca del coche: ");
-                    marca = valor.next();
-
-                    System.out.println("Indique el modelo del coche: ");
-                    modelo = valor.next();
-
-                    System.out.println("Indique el número de CV del coche: ");
-                    caballos = valor.nextInt();
-
-                    garaje.add(coche);
-
-                    System.out.println("Coche añadido correctamente");
-                break;
+                    break;
 
                 case 2:
-                    for (Object[] lista: garaje) {
-                        System.out.println("Matrícula: " + coche[0] + "   Marca: " + coche[1] + "   Modelo: " + coche[2] + "   CV: " + coche[3]);
+
+                    if (listaGaraje.size()>0){
+                        for ( Object[] coche : listaGaraje ) {
+                            System.out.println("Marca: "+coche[0]
+                                    +"\tModelo: "+coche[1]
+                                    +"\tMatricula: " +coche[2]
+                                    +"\tCoste: "+coche[3]);
+                        }
+                    } else {
+                        System.out.println("No hay coches en el garaje");
                     }
-                break;
 
+                    break;
                 case 3:
-                    System.out.println("Introduzca la matrícula del coche que desea buscar: ");
-                    busquedaCoche = valor.nextInt();
+                    System.out.println("Que matrícula quieres buscar");
+                    String matricula = lecturaTeclado.next();
+                    boolean encontrado = false;
 
-                    for (Object[] busqueda : garaje) {
-                        if(coche[0].equals(busquedaCoche)){
-                            for(Object item : garaje){
-                                System.out.println(item + "\t");
-                            }
-                            System.out.println("");
+                    for ( Object[] coche : listaGaraje ) {
+
+                        if (coche[2].toString().equalsIgnoreCase(matricula)){
+                            encontrado = true;
+                            System.out.println("Marca: "+coche[0]
+                                    +"\tModelo: "+coche[1]
+                                    +"\tMatricula: " +coche[2]
+                                    +"\tCoste: "+coche[3]);
+
+                            //break;
                         }
                     }
-                break;
 
+                    if (!encontrado){
+                        System.out.println("El coche no está en el garaje");
+                    }
+
+                    break;
                 case 4:
-                    System.out.println("Introduzca la matricula del coche que desea eliminar: ");
-                    cocheEliminado = valor.nextInt();
-                break;
 
+                    int costeAcumulado = 0;
+                    for ( Object[] coche : listaGaraje ) {
+                        costeAcumulado += (int) coche[3];
+                    }
+
+                    System.out.println("Tu coste acumulado es de "+costeAcumulado);
+                    break;
+                case 5:
+                    System.out.println("Que matrícula quieres buscar");
+                    matricula = lecturaTeclado.next();
+                    encontrado = false;
+
+                    for (int i = 0; i < listaGaraje.size(); i++) {
+                        if (listaGaraje.get(i)[2].toString().equalsIgnoreCase(matricula)){
+                            System.out.println("Coche borrado");
+                            encontrado=true;
+                            listaGaraje.remove(i);
+                            break;
+                        }
+                    }
+
+                    if(!encontrado){
+                        System.out.println("Coche no encotrado en la lista");
+                    }
+
+                    break;
+                case 6:
+                    listaGaraje.clear();
+                    System.out.println("Lista vaciada");
+                    break;
             }
-        }while (opcion > 0);
-
+        } while (opcion != 7);
     }
 }
