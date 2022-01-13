@@ -1,4 +1,4 @@
-public class Arrays {
+public class EjArr {
 
     public static void main(String[] args) {
 
