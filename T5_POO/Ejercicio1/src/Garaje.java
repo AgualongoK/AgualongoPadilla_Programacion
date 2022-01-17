@@ -8,7 +8,7 @@ public class Garaje {
     public void devolverCoche(){
         this.coche = null;
     }
-    
+
     public boolean aceptarCoche(Coche coche, String averia) {
         if (this.coche != null) {
             return false;
