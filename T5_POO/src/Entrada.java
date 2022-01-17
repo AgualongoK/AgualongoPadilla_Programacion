@@ -30,6 +30,5 @@ public class Entrada {
         System.out.println(usuario1.getPassword());
 
         usuario1.saludar("Borja");
-        usuario3.saludar(usuario1);
     }
 }
