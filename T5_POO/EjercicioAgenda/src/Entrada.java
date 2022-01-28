@@ -5,6 +5,7 @@ public class Entrada {
     public static void main(String[] args) {
 
         Agenda agenda = new Agenda();
+        Persona persona1 = new Persona("Borja","Matin",600123456);
         Scanner valor = new Scanner(System.in);
         int opcion = 0;
 
@@ -21,11 +22,13 @@ public class Entrada {
 
             switch (opcion){
                 case 1:
-
+                    agenda.anadirPersona(persona1);
+                    agenda.anadirPersona(new Persona("Luis","Baroja",700123456));
                     break;
 
                 case 2:
-
+                    System.out.println("Introduzca el DNI de la persona que desea eliminar: ");
+                    agenda.borrarPersona(valor.next());
                     break;
 
                 case 3:
@@ -37,7 +40,7 @@ public class Entrada {
                     break;
 
                 case  5:
-
+                    agenda.listar();
                     break;
             }
         }

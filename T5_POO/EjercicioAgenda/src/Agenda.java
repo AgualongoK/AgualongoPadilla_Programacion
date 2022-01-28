@@ -13,13 +13,25 @@ public class Agenda {
 
     public void listar(){
         for (Persona item : listaPersonas) {
+            System.out.println("Imprimiendo persona...");
             item.mostrarDatos();
         }
     }
 
-    public void añadirPersona(Persona persona){
+    public void anadirPersona(Persona persona){
         listaPersonas.add(persona);
     }
 
+    public void borrarPersona(String dni){
 
-}
+        for (int i = 0; i < listaPersonas.size(); i++) {
+            if(dni.equalsIgnoreCase(listaPersonas.get(i).getDni())) ;
+            {
+                listaPersonas.remove(i);
+            }
+        }
+        }
+    }
+
+
+
