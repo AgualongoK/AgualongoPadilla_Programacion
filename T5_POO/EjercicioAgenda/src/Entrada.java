@@ -28,7 +28,8 @@ public class Entrada {
 
                 case 2:
                     System.out.println("Introduzca el DNI de la persona que desea eliminar: ");
-                    agenda.borrarPersona(valor.next());
+                    agenda.borrarPersona(valor.nextInt());
+                    // en el borrarPersona hemos tenido que poner un int porque el sistema está eliminando el teléfono, no el dni que es tipo String
                     break;
 
                 case 3:
