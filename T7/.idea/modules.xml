@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EjRepaso1/EjRepaso1.iml" filepath="$PROJECT_DIR$/EjRepaso1/EjRepaso1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio1/Ejercicio1.iml" filepath="$PROJECT_DIR$/Ejercicio1/Ejercicio1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjercicioCoche/EjercicioCoche.iml" filepath="$PROJECT_DIR$/EjercicioCoche/EjercicioCoche.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjercicioInventario/EjercicioInventario.iml" filepath="$PROJECT_DIR$/EjercicioInventario/EjercicioInventario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjercicioPartido/EjercicioPartido.iml" filepath="$PROJECT_DIR$/EjercicioPartido/EjercicioPartido.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjercicioTorneo/EjercicioTorneo.iml" filepath="$PROJECT_DIR$/EjercicioTorneo/EjercicioTorneo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Excepciones/Excepciones.iml" filepath="$PROJECT_DIR$/Excepciones/Excepciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Genericos/Genericos.iml" filepath="$PROJECT_DIR$/Genericos/Genericos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Genericos/Partido.iml" filepath="$PROJECT_DIR$/Genericos/Partido.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T7.iml" filepath="$PROJECT_DIR$/T7.iml" />
+    </modules>
+  </component>
+</project>
