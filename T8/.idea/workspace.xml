@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="07c53f67-3c6d-4923-8884-71638cbd32fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AgualongoExamenT8/src/main/java/JsonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AgualongoExamenT8/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AgualongoExamenT8/src/main/java/Peliculas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/src/Ejercicio2/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/src/Ejercicio2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/src/Ejercicio2/model/Personaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/src/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/src/resources/fichero_cifrado.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1Examen/src/resources/personajes_vf.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1JSON/.idea/libraries/json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1JSON/src/main/java/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1JSON/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1JSON/src/main/java/model/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FicherosJSON/src/main/java/Controller/JSONController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FicherosJSON/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FicherosJSON/src/main/resources/asignaturas.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FicherosJSON/src/main/resources/persona.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="28vSOKz2fA4wBFQlx3LBmsYfMEU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07c53f67-3c6d-4923-8884-71638cbd32fe" name="Changes" comment="" />
+      <created>1652095537816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652095537816</updated>
+    </task>
+    <servers />
+  </component>
+</project>
