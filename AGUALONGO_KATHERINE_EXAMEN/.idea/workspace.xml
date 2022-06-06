@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53c9b6f8-1aa5-4315-8c5b-288138f46bb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../AGUALONGO_KATHERINE_EXAMEN/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AGUALONGO_KATHERINE_EXAMEN/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AGUALONGO_KATHERINE_EXAMEN/.idea/libraries/google_code_gson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AGUALONGO_KATHERINE_EXAMEN/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AGUALONGO_KATHERINE_EXAMEN/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AGUALONGO_KATHERINE_EXAMEN/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AGUALONGO_KATHERINE_EXAMEN/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AGUALONGO_KATHERINE_EXAMEN/src/main/java/controller/ControllerDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AGUALONGO_KATHERINE_EXAMEN/src/main/java/controller/FicherosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AGUALONGO_KATHERINE_EXAMEN/src/main/java/database/SchemaDB.java" afterDir="false" />
+    <list default="true" id="7ca3a780-c42a-4c61-ae7d-9f107ba1ecf8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ControllerDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FicherosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/SchemaDB.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ejercicio1T9/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ejercicio1T9/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ejercicio1T9/.idea/misc.xml" afterDir="false" />
@@ -26,8 +26,8 @@
       <change afterPath="$PROJECT_DIR$/../Ejercicio1T9/src/main/java/controller/ControllerBD.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ejercicio1T9/src/main/java/database/SchemeDB.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ejercicio1T9/src/main/java/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosT9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosT9/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosT9/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,29 +37,45 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="293Y3XdFBMYGO0POVBqScQe8xju" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="29NKGnxyva6mBQQIZfzMPxqMNFP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="EjerciciosT9" />
+      <module name="AGUALONGO_KATHERINE_EXAMEN" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,11 +89,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="53c9b6f8-1aa5-4315-8c5b-288138f46bb3" name="Changes" comment="" />
-      <created>1652343039993</created>
+      <changelist id="7ca3a780-c42a-4c61-ae7d-9f107ba1ecf8" name="Changes" comment="" />
+      <created>1652948011772</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652343039993</updated>
+      <updated>1652948011772</updated>
     </task>
     <servers />
   </component>
@@ -91,6 +107,16 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/ControllerDB.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
